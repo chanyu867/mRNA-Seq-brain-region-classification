@@ -6,7 +6,7 @@ This project predicts the anatomical source of adult human brain RNA expression 
 
 The input `GSE211792_logCPM_cent.csv` has **33,279 genes × 265 samples** from **6 donors**, **25 anatomical regions**, and two RNA fractions (**N**, neuronal; **G**, non-neuronal). Each column is one donor–region–fraction sample; each row is a gene. The values are centered log counts per million (log-CPM), which summarize RNA abundance, rather than DNA sequence or a percentage of cells. Region labels come from the sample names and are the prediction targets. The source series is [GSE211792](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE211792).
 
-The 155 MB input CSV is **not included** in this repository. Put it beside the cloned repository, or set `BRAIN_REGION_DATA_FILE` to its location. The saved `results/` files are included so the score tables and most plots can be inspected without retraining. Exploratory PCA plots and one cell-type table require the input CSV when regenerated.
+The 155 MiB input CSV is **not included** in this repository. Put it beside the cloned repository, or set `BRAIN_REGION_DATA_FILE` to its location. The saved `results/` files are included so the score tables and most plots can be inspected without retraining. Exploratory PCA plots and one cell-type table require the input CSV when regenerated.
 
 ## Results at a glance
 
@@ -17,6 +17,24 @@ The 155 MB input CSV is **not included** in this repository. Put it beside the c
 | Direct 25 regions | ANOVA + RBF SVM | 0.420 ± 0.139 |
 
 These rows come from `results/full_grid_summary.csv`. The number of classes differs between tasks, so the scores are not directly comparable as measures of the same difficulty. See `results/joint_feature_comparison/` for joint two-stage experiments; those fixed-setting comparisons should be read separately from nested-tuned results.
+
+### Main figures
+
+**Held-out donor performance.** Macro F1 distributions across the tested feature methods, kernels, and model families. [Open full-size figure](results/full_grid_boxplot_all_models.png).
+
+![Boxplots of donor-held-out macro F1 for the tested classifiers](results/full_grid_boxplot_all_models.png)
+
+**Seven macro regions.** Confusion matrix for the best tested 7-class model (MI + RBF SVM). [Open full-size figure](results/best_macro_7x7_confusion.png).
+
+![Seven-macro-region confusion matrix](results/best_macro_7x7_confusion.png)
+
+**Direct 25-region classification.** Confusion matrix for the best tested direct classifier (ANOVA + RBF SVM). [Open full-size figure](results/rbf_anova_25_regions_nested/confusion_matrix_25.png).
+
+![Direct 25-region confusion matrix](results/rbf_anova_25_regions_nested/confusion_matrix_25.png)
+
+**Joint two-stage models.** Held-out 25-region confusion matrices for the joint 4→25 and 7→25 ANOVA models. [Open full-size figure](results/joint_4_vs_7_confusion_25.png).
+
+![Joint four- and seven-macro hierarchical confusion matrices](results/joint_4_vs_7_confusion_25.png)
 
 ## Set up and run
 
