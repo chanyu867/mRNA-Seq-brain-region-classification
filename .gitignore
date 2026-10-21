@@ -6,6 +6,4 @@ __pycache__/
 venv/
 data/
 GSE211792_logCPM_cent.csv
-resume_checkpoints/
-resume_saved_results/
 results_completed_*/

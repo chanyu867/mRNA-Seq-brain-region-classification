@@ -25,7 +25,7 @@ from sklearn.model_selection import LeaveOneGroupOut
 from sklearn.preprocessing import StandardScaler
 
 PROJECT_DIR = Path(__file__).resolve().parent
-DATA_FILE = Path(os.environ.get("BRAIN_REGION_DATA_FILE", PROJECT_DIR.parent / "GSE211792_logCPM_cent.csv")).expanduser()
+DATA_FILE = Path(os.environ.get("BRAIN_REGION_DATA_FILE", PROJECT_DIR / "GSE211792_logCPM_cent.csv.gz")).expanduser()
 OUT_DIR = PROJECT_DIR / "results" / "joint_feature_comparison"
 MI_CACHE_DIR = PROJECT_DIR / "resume_checkpoints" / "mi_scores"
 

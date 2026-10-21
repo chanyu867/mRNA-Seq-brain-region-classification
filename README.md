@@ -6,7 +6,7 @@ This project predicts the anatomical source of adult human brain RNA expression 
 
 The input `GSE211792_logCPM_cent.csv` has **33,279 genes × 265 samples** from **6 donors**, **25 anatomical regions**, and two RNA fractions (**N**, neuronal; **G**, non-neuronal). Each column is one donor–region–fraction sample; each row is a gene. The values are centered log counts per million (log-CPM), which summarize RNA abundance, rather than DNA sequence or a percentage of cells. Region labels come from the sample names and are the prediction targets. The source series is [GSE211792](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE211792).
 
-The 155 MiB input CSV is **not included** in this repository. Put it beside the cloned repository, or set `BRAIN_REGION_DATA_FILE` to its location. The saved `results/` files are included so the score tables and most plots can be inspected without retraining. Exploratory PCA plots and one cell-type table require the input CSV when regenerated.
+The input is included as `GSE211792_logCPM_cent.csv.gz`, a losslessly compressed copy of the 155 MiB CSV. Pandas reads it directly; no extraction is needed. You can set `BRAIN_REGION_DATA_FILE` to a different `.csv` or `.csv.gz` file. Saved results and experiment checkpoints are included as well.
 
 ## Results at a glance
 
@@ -23,10 +23,6 @@ These rows come from `results/full_grid_summary.csv`. The number of classes diff
 **Held-out donor performance.** Macro F1 distributions across the tested feature methods, kernels, and model families. [Open full-size figure](results/full_grid_boxplot_all_models.png).
 
 ![Boxplots of donor-held-out macro F1 for the tested classifiers](results/full_grid_boxplot_all_models.png)
-
-**Seven macro regions.** Confusion matrix for the best tested 7-class model (MI + RBF SVM). [Open full-size figure](results/best_macro_7x7_confusion.png).
-
-![Seven-macro-region confusion matrix](results/best_macro_7x7_confusion.png)
 
 **Direct 25-region classification.** Confusion matrix for the best tested direct classifier (ANOVA + RBF SVM). [Open full-size figure](results/rbf_anova_25_regions_nested/confusion_matrix_25.png).
 
@@ -45,15 +41,15 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 
-# If the CSV is not in the parent directory of this repository:
+# Optional: use a different input file:
 export BRAIN_REGION_DATA_FILE=/path/to/GSE211792_logCPM_cent.csv
 
 jupyter lab
 ```
 
-Open `ML_Project_analysis.ipynb` and run its cells in order, then open `ML_Project_plotting.ipynb`. Both notebooks define `PROJECT_DIR`, `DATA_FILE`, `RESULTS_DIR`, and `RESUME_CHECKPOINT_DIR` in their first code cell. The default input location is the repository's parent directory. Adjust that cell or set the environment variable before launching Jupyter.
+Open `ML_Project_analysis.ipynb` and run its cells in order, then open `ML_Project_plotting.ipynb`. Both notebooks define `PROJECT_DIR`, `DATA_FILE`, `RESULTS_DIR`, and `RESUME_CHECKPOINT_DIR` in their first code cell. The default input is the bundled compressed CSV. Set the environment variable before launching Jupyter if you want to use another input file.
 
-The analysis notebook uses saved summaries when present, including the nested model grid. It checks and displays saved tables without rerunning that expensive grid. To **recompute the full nested grid**, remove `results/full_grid_summary.csv` and run the analysis notebook; a fresh run can take many hours and will write checkpoints to the ignored `resume_checkpoints/` directory. Other experiment functions reuse their own saved fold files when present. For a complete clean rerun, move the existing `results/` directory aside first.
+The analysis notebook uses saved summaries when present, including the nested model grid. It checks and displays saved tables without rerunning that expensive grid. To **recompute or resume the full nested grid**, remove `results/full_grid_summary.csv` and run the analysis notebook; it reuses available files in `resume_checkpoints/`. A fresh run can take many hours. Other experiment functions reuse their own saved fold files when present. For a complete clean rerun, move the existing `results/` and `resume_checkpoints/` directories aside first.
 
 ## Files
 
@@ -65,7 +61,10 @@ The analysis notebook uses saved summaries when present, including the nested mo
 | `joint_feature_comparison.py` | Shared-loss hierarchical models with ANOVA, mutual information, or PCA features and linear or RBF kernels. |
 | `cell_type_comparison.py` | Neuronal-only and non-neuronal-only experiments and family comparisons. |
 | `project_plots.py` | Figure generation from saved predictions and the input CSV. |
+| `GSE211792_logCPM_cent.csv.gz` | Losslessly compressed gene-expression matrix; pandas reads it directly. |
 | `results/` | Saved fold predictions, score summaries, figures, and selected model artifacts. |
+| `resume_checkpoints/` | Donor-level experiment checkpoints and cached feature scores for resuming runs. |
+| `resume_saved_results/` | Preserved result files used by the resume workflow. |
 | `requirements.txt` | Python dependencies. |
 
 Feature selection and scaling for predictive models are fitted within training folds. The PCA scatter plots are descriptive and use all samples. Some preserved results from an earlier joint ANOVA experiment have held-out predictions but no original training source; those figures can be reproduced from the saved predictions, while that exact older fit cannot be rebuilt from this code.

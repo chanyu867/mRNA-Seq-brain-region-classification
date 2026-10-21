@@ -744,10 +744,9 @@ def create_confusion_matrices(project_dir, results_dir):
 
     macro_plot_paths = [plot_macro_confusion(scheme, config)
                         for scheme, config in MACRO_RUNS.items()]
-    return [Path(name) for name in (
-        "results/rbf_anova_25_regions_nested/confusion_matrix_25.png",
-        "results/hierarchical_grid/hierarchical_4_vs_7_confusion_25.png",
-        "results/joint_4_vs_7_confusion_25.png",
-        "results/best_macro_4x4_confusion.png",
-        "results/best_macro_7x7_confusion.png",
-    )]
+    return [
+        RESULTS / "rbf_anova_25_regions_nested/confusion_matrix_25.png",
+        RESULTS / "hierarchical_grid/hierarchical_4_vs_7_confusion_25.png",
+        RESULTS / "joint_4_vs_7_confusion_25.png",
+        *macro_plot_paths,
+    ]
