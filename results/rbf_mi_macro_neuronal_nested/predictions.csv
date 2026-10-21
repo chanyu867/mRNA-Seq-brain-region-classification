@@ -1,0 +1,133 @@
+sample_index,test_donor,k,svm_C,y_true,y_pred
+173,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+175,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+177,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+179,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+181,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+183,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+185,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+186,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+189,BB1,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+191,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+192,BB1,50,"C=1, gamma=0.1x scale",Hindbrain,Hindbrain
+195,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+198,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+200,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+202,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+204,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+206,BB1,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+207,BB1,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+209,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+211,BB2,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+213,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+215,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+217,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+219,BB2,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+221,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+223,BB2,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+225,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+227,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+229,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+231,BB2,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+233,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+235,BB2,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+237,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+239,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+241,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+243,BB2,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+245,BB2,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+247,BB2,50,"C=1, gamma=0.1x scale",Hindbrain,Hindbrain
+249,BB2,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+251,BB2,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+4,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+22,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+34,BB3,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+36,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+53,BB3,50,"C=1, gamma=0.1x scale",Hindbrain,Hindbrain
+57,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+59,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+70,BB3,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+76,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+85,BB3,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+90,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+95,BB3,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+107,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+119,BB3,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+123,BB3,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+129,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+148,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+161,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+169,BB3,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+256,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+262,BB3,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+6,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+10,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+16,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+30,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+41,BB4,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+45,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+55,BB4,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+60,BB4,50,"C=1, gamma=0.1x scale",Hindbrain,Hindbrain
+68,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+81,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+92,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+97,BB4,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+109,BB4,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+114,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+121,BB4,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+127,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+132,BB4,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+136,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+152,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+155,BB4,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+163,BB4,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+171,BB4,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+2,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+14,BB5,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+20,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+26,BB5,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+28,BB5,50,"C=1, gamma=0.1x scale",Hindbrain,Hindbrain
+37,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+43,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+49,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+62,BB5,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+74,BB5,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+84,BB5,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+87,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+101,BB5,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+103,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+111,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+134,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+143,BB5,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+145,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+150,BB5,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+153,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+158,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+167,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+254,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+259,BB5,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+8,BB6,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+12,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+18,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+24,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+32,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+38,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+47,BB6,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+51,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+64,BB6,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+66,BB6,50,"C=1, gamma=0.1x scale",Hindbrain,Hindbrain
+77,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+83,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+89,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+98,BB6,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+100,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+113,BB6,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+117,BB6,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+126,BB6,50,"C=1, gamma=0.1x scale",Basal Ganglia,Basal Ganglia
+137,BB6,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+139,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+141,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+157,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+165,BB6,50,"C=1, gamma=0.1x scale",Midbrain/Diencephalon,Midbrain/Diencephalon
+258,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain
+264,BB6,50,"C=1, gamma=0.1x scale",Forebrain,Forebrain

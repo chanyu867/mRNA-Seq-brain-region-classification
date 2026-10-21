@@ -1,0 +1,134 @@
+sample_index,test_donor,k,svm_C,y_true,y_pred
+172,BB1,50,0.1,Forebrain,Forebrain
+174,BB1,50,0.1,Forebrain,Forebrain
+176,BB1,50,0.1,Forebrain,Forebrain
+178,BB1,50,0.1,Forebrain,Forebrain
+180,BB1,50,0.1,Forebrain,Forebrain
+182,BB1,50,0.1,Forebrain,Forebrain
+184,BB1,50,0.1,Forebrain,Forebrain
+187,BB1,50,0.1,Midbrain/Diencephalon,Hindbrain
+188,BB1,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+190,BB1,50,0.1,Forebrain,Forebrain
+193,BB1,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+194,BB1,50,0.1,Forebrain,Forebrain
+196,BB1,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+197,BB1,50,0.1,Forebrain,Forebrain
+199,BB1,50,0.1,Forebrain,Forebrain
+201,BB1,50,0.1,Forebrain,Forebrain
+203,BB1,50,0.1,Forebrain,Forebrain
+205,BB1,50,0.1,Basal Ganglia,Basal Ganglia
+208,BB2,50,0.1,Forebrain,Forebrain
+210,BB2,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+212,BB2,50,0.1,Forebrain,Forebrain
+214,BB2,50,0.1,Forebrain,Forebrain
+216,BB2,50,0.1,Forebrain,Forebrain
+218,BB2,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+220,BB2,50,0.1,Forebrain,Forebrain
+222,BB2,50,0.1,Basal Ganglia,Basal Ganglia
+224,BB2,50,0.1,Forebrain,Forebrain
+226,BB2,50,0.1,Forebrain,Forebrain
+228,BB2,50,0.1,Forebrain,Forebrain
+230,BB2,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+232,BB2,50,0.1,Forebrain,Forebrain
+234,BB2,50,0.1,Basal Ganglia,Basal Ganglia
+236,BB2,50,0.1,Forebrain,Forebrain
+238,BB2,50,0.1,Forebrain,Forebrain
+240,BB2,50,0.1,Forebrain,Forebrain
+242,BB2,50,0.1,Forebrain,Forebrain
+244,BB2,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+246,BB2,50,0.1,Hindbrain,Hindbrain
+248,BB2,50,0.1,Basal Ganglia,Basal Ganglia
+250,BB2,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+252,BB2,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+0,BB3,100,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+3,BB3,100,0.1,Forebrain,Forebrain
+21,BB3,100,0.1,Forebrain,Forebrain
+33,BB3,100,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+35,BB3,100,0.1,Forebrain,Forebrain
+52,BB3,100,0.1,Hindbrain,Hindbrain
+56,BB3,100,0.1,Forebrain,Forebrain
+58,BB3,100,0.1,Forebrain,Forebrain
+69,BB3,100,0.1,Basal Ganglia,Basal Ganglia
+75,BB3,100,0.1,Forebrain,Forebrain
+79,BB3,100,0.1,Basal Ganglia,Basal Ganglia
+94,BB3,100,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+106,BB3,100,0.1,Forebrain,Forebrain
+118,BB3,100,0.1,Basal Ganglia,Basal Ganglia
+122,BB3,100,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+128,BB3,100,0.1,Forebrain,Forebrain
+130,BB3,100,0.1,Forebrain,Forebrain
+147,BB3,100,0.1,Forebrain,Forebrain
+160,BB3,100,0.1,Forebrain,Forebrain
+168,BB3,100,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+255,BB3,100,0.1,Forebrain,Forebrain
+261,BB3,100,0.1,Forebrain,Forebrain
+5,BB4,50,0.1,Forebrain,Forebrain
+9,BB4,50,0.1,Forebrain,Forebrain
+15,BB4,50,0.1,Forebrain,Forebrain
+29,BB4,50,0.1,Forebrain,Forebrain
+40,BB4,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+44,BB4,50,0.1,Forebrain,Forebrain
+54,BB4,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+67,BB4,50,0.1,Forebrain,Forebrain
+72,BB4,50,0.1,Forebrain,Forebrain
+80,BB4,50,0.1,Forebrain,Forebrain
+91,BB4,50,0.1,Forebrain,Forebrain
+96,BB4,50,0.1,Basal Ganglia,Basal Ganglia
+105,BB4,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+108,BB4,50,0.1,Basal Ganglia,Basal Ganglia
+115,BB4,50,0.1,Forebrain,Forebrain
+120,BB4,50,0.1,Basal Ganglia,Basal Ganglia
+124,BB4,50,0.1,Forebrain,Forebrain
+131,BB4,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+135,BB4,50,0.1,Forebrain,Forebrain
+151,BB4,50,0.1,Forebrain,Forebrain
+154,BB4,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+162,BB4,50,0.1,Forebrain,Forebrain
+170,BB4,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+1,BB5,50,0.1,Forebrain,Forebrain
+13,BB5,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+19,BB5,50,0.1,Forebrain,Forebrain
+25,BB5,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+27,BB5,50,0.1,Hindbrain,Hindbrain
+42,BB5,50,0.1,Forebrain,Forebrain
+48,BB5,50,0.1,Forebrain,Forebrain
+61,BB5,50,0.1,Basal Ganglia,Basal Ganglia
+73,BB5,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+78,BB5,50,0.1,Basal Ganglia,Basal Ganglia
+86,BB5,50,0.1,Forebrain,Forebrain
+93,BB5,50,0.1,Basal Ganglia,Midbrain/Diencephalon
+102,BB5,50,0.1,Forebrain,Forebrain
+104,BB5,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+110,BB5,50,0.1,Forebrain,Forebrain
+133,BB5,50,0.1,Forebrain,Forebrain
+142,BB5,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+144,BB5,50,0.1,Forebrain,Forebrain
+146,BB5,50,0.1,Forebrain,Forebrain
+149,BB5,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+159,BB5,50,0.1,Forebrain,Forebrain
+166,BB5,50,0.1,Forebrain,Forebrain
+253,BB5,50,0.1,Forebrain,Forebrain
+260,BB5,50,0.1,Forebrain,Forebrain
+7,BB6,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+11,BB6,50,0.1,Forebrain,Forebrain
+17,BB6,50,0.1,Forebrain,Forebrain
+23,BB6,50,0.1,Forebrain,Forebrain
+31,BB6,50,0.1,Forebrain,Forebrain
+39,BB6,50,0.1,Forebrain,Forebrain
+46,BB6,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+50,BB6,50,0.1,Forebrain,Forebrain
+63,BB6,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+65,BB6,50,0.1,Hindbrain,Hindbrain
+71,BB6,50,0.1,Forebrain,Forebrain
+82,BB6,50,0.1,Forebrain,Forebrain
+88,BB6,50,0.1,Forebrain,Forebrain
+99,BB6,50,0.1,Forebrain,Forebrain
+112,BB6,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+116,BB6,50,0.1,Basal Ganglia,Basal Ganglia
+125,BB6,50,0.1,Basal Ganglia,Basal Ganglia
+138,BB6,50,0.1,Forebrain,Forebrain
+140,BB6,50,0.1,Forebrain,Forebrain
+156,BB6,50,0.1,Forebrain,Forebrain
+164,BB6,50,0.1,Midbrain/Diencephalon,Midbrain/Diencephalon
+257,BB6,50,0.1,Forebrain,Forebrain
+263,BB6,50,0.1,Forebrain,Forebrain

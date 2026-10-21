@@ -1,0 +1,53 @@
+# Brain region classification from RNA expression
+
+This project predicts the anatomical source of adult human brain RNA expression samples. It compares direct prediction of 25 regions, prediction of 4 or 7 broader regions, and two-stage 25-region classifiers. Evaluation holds out one donor at a time, so samples from the same donor do not appear in both training and test sets.
+
+## Data
+
+The input `GSE211792_logCPM_cent.csv` has **33,279 genes × 265 samples** from **6 donors**, **25 anatomical regions**, and two RNA fractions (**N**, neuronal; **G**, non-neuronal). Each column is one donor–region–fraction sample; each row is a gene. The values are centered log counts per million (log-CPM), which summarize RNA abundance, rather than DNA sequence or a percentage of cells. Region labels come from the sample names and are the prediction targets. The source series is [GSE211792](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE211792).
+
+The 155 MB input CSV is **not included** in this repository. Put it beside the cloned repository, or set `BRAIN_REGION_DATA_FILE` to its location. The saved `results/` files are included so the score tables and most plots can be inspected without retraining. Exploratory PCA plots and one cell-type table require the input CSV when regenerated.
+
+## Results at a glance
+
+| Task | Best tested method | Mean macro F1 ± SD across six held-out donors |
+| --- | --- | ---: |
+| 4 macro regions | MI + RBF SVM | 1.000 ± 0.000 |
+| 7 macro regions | MI + RBF SVM | 0.848 ± 0.109 |
+| Direct 25 regions | ANOVA + RBF SVM | 0.420 ± 0.139 |
+
+These rows come from `results/full_grid_summary.csv`. The number of classes differs between tasks, so the scores are not directly comparable as measures of the same difficulty. See `results/joint_feature_comparison/` for joint two-stage experiments; those fixed-setting comparisons should be read separately from nested-tuned results.
+
+## Set up and run
+
+```bash
+git clone -b codex/portable-notebooks-results https://github.com/chanyu867/mRNA-Seq-brain-region-classification.git
+cd mRNA-Seq-brain-region-classification
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+
+# If the CSV is not in the parent directory of this repository:
+export BRAIN_REGION_DATA_FILE=/path/to/GSE211792_logCPM_cent.csv
+
+jupyter lab
+```
+
+Open `ML_Project_analysis.ipynb` and run its cells in order, then open `ML_Project_plotting.ipynb`. Both notebooks define `PROJECT_DIR`, `DATA_FILE`, `RESULTS_DIR`, and `RESUME_CHECKPOINT_DIR` in their first code cell. The default input location is the repository's parent directory. Adjust that cell or set the environment variable before launching Jupyter.
+
+The analysis notebook uses saved summaries when present, including the nested model grid. It checks and displays saved tables without rerunning that expensive grid. To **recompute the full nested grid**, remove `results/full_grid_summary.csv` and run the analysis notebook; a fresh run can take many hours and will write checkpoints to the ignored `resume_checkpoints/` directory. Other experiment functions reuse their own saved fold files when present. For a complete clean rerun, move the existing `results/` directory aside first.
+
+## Files
+
+| File | Purpose |
+| --- | --- |
+| `ML_Project_analysis.ipynb` | Set paths, run or reuse experiments, inspect summary tables, check saved outputs. |
+| `ML_Project_plotting.ipynb` | Regenerate PCA views, donor-wise performance plots, and confusion matrices from data and saved predictions. |
+| `project_analysis.py` | Nested donor-held-out experiments, PCA variance search, and result aggregation. |
+| `joint_feature_comparison.py` | Shared-loss hierarchical models with ANOVA, mutual information, or PCA features and linear or RBF kernels. |
+| `cell_type_comparison.py` | Neuronal-only and non-neuronal-only experiments and family comparisons. |
+| `project_plots.py` | Figure generation from saved predictions and the input CSV. |
+| `results/` | Saved fold predictions, score summaries, figures, and selected model artifacts. |
+| `requirements.txt` | Python dependencies. |
+
+Feature selection and scaling for predictive models are fitted within training folds. The PCA scatter plots are descriptive and use all samples. Some preserved results from an earlier joint ANOVA experiment have held-out predictions but no original training source; those figures can be reproduced from the saved predictions, while that exact older fit cannot be rebuilt from this code.

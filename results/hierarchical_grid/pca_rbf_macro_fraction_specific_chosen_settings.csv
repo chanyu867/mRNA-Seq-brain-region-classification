@@ -1,0 +1,49 @@
+test_donor,subset,macro,k,C
+BB1,neuronal,Forebrain,10.0,"C=1, gamma=0.1x scale"
+BB1,neuronal,Basal Ganglia,10.0,"C=1, gamma=0.1x scale"
+BB1,neuronal,Midbrain/Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB1,neuronal,Hindbrain,,
+BB1,non_neuronal,Forebrain,20.0,"C=1, gamma=10x scale"
+BB1,non_neuronal,Basal Ganglia,10.0,"C=1, gamma=0.1x scale"
+BB1,non_neuronal,Midbrain/Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB1,non_neuronal,Hindbrain,,
+BB2,neuronal,Forebrain,10.0,"C=1, gamma=0.1x scale"
+BB2,neuronal,Basal Ganglia,8.0,"C=1, gamma=0.1x scale"
+BB2,neuronal,Midbrain/Diencephalon,10.0,"C=1, gamma=10x scale"
+BB2,neuronal,Hindbrain,,
+BB2,non_neuronal,Forebrain,10.0,"C=10, gamma=10x scale"
+BB2,non_neuronal,Basal Ganglia,8.0,"C=1, gamma=10x scale"
+BB2,non_neuronal,Midbrain/Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB2,non_neuronal,Hindbrain,,
+BB3,neuronal,Forebrain,10.0,"C=1, gamma=0.1x scale"
+BB3,neuronal,Basal Ganglia,8.0,"C=1, gamma=0.1x scale"
+BB3,neuronal,Midbrain/Diencephalon,10.0,"C=10, gamma=0.1x scale"
+BB3,neuronal,Hindbrain,,
+BB3,non_neuronal,Forebrain,20.0,"C=1, gamma=0.1x scale"
+BB3,non_neuronal,Basal Ganglia,8.0,"C=1, gamma=0.1x scale"
+BB3,non_neuronal,Midbrain/Diencephalon,10.0,"C=100, gamma=0.1x scale"
+BB3,non_neuronal,Hindbrain,,
+BB4,neuronal,Forebrain,10.0,"C=1, gamma=10x scale"
+BB4,neuronal,Basal Ganglia,8.0,"C=100, gamma=0.1x scale"
+BB4,neuronal,Midbrain/Diencephalon,10.0,"C=10, gamma=0.1x scale"
+BB4,neuronal,Hindbrain,,
+BB4,non_neuronal,Forebrain,50.0,"C=1, gamma=10x scale"
+BB4,non_neuronal,Basal Ganglia,8.0,"C=1, gamma=0.1x scale"
+BB4,non_neuronal,Midbrain/Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB4,non_neuronal,Hindbrain,,
+BB5,neuronal,Forebrain,10.0,"C=1, gamma=0.1x scale"
+BB5,neuronal,Basal Ganglia,9.0,"C=1, gamma=0.1x scale"
+BB5,neuronal,Midbrain/Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB5,neuronal,Hindbrain,,
+BB5,non_neuronal,Forebrain,10.0,"C=1, gamma=10x scale"
+BB5,non_neuronal,Basal Ganglia,8.0,"C=1, gamma=10x scale"
+BB5,non_neuronal,Midbrain/Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB5,non_neuronal,Hindbrain,,
+BB6,neuronal,Forebrain,10.0,"C=1, gamma=0.1x scale"
+BB6,neuronal,Basal Ganglia,8.0,"C=1, gamma=10x scale"
+BB6,neuronal,Midbrain/Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB6,neuronal,Hindbrain,,
+BB6,non_neuronal,Forebrain,20.0,"C=1, gamma=0.1x scale"
+BB6,non_neuronal,Basal Ganglia,9.0,"C=1, gamma=0.1x scale"
+BB6,non_neuronal,Midbrain/Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB6,non_neuronal,Hindbrain,,

@@ -1,0 +1,25 @@
+test_donor,fraction,macro,k,C
+BB1,,Forebrain,10000.0,0.1
+BB1,,Basal Ganglia,250.0,0.1
+BB1,,Midbrain/Diencephalon,50.0,0.1
+BB1,,Hindbrain,,
+BB2,,Forebrain,1000.0,0.1
+BB2,,Basal Ganglia,50.0,0.1
+BB2,,Midbrain/Diencephalon,50.0,0.1
+BB2,,Hindbrain,,
+BB3,,Forebrain,500.0,0.1
+BB3,,Basal Ganglia,50.0,0.1
+BB3,,Midbrain/Diencephalon,50.0,1.0
+BB3,,Hindbrain,,
+BB4,,Forebrain,10000.0,0.1
+BB4,,Basal Ganglia,100.0,0.1
+BB4,,Midbrain/Diencephalon,2000.0,0.1
+BB4,,Hindbrain,,
+BB5,,Forebrain,10000.0,0.1
+BB5,,Basal Ganglia,5000.0,0.1
+BB5,,Midbrain/Diencephalon,100.0,10.0
+BB5,,Hindbrain,,
+BB6,,Forebrain,10000.0,0.1
+BB6,,Basal Ganglia,50.0,0.1
+BB6,,Midbrain/Diencephalon,50.0,10.0
+BB6,,Hindbrain,,

@@ -1,0 +1,7 @@
+test_donor,k,svm_C,macro_f1,balanced_accuracy,accuracy
+BB1,100,"C=10, gamma=0.1x scale",1.0,1.0,1.0
+BB2,50,"C=1, gamma=1x scale",0.9066666666666666,0.9807692307692308,0.9545454545454546
+BB3,50,"C=1, gamma=1x scale",1.0,1.0,1.0
+BB4,250,"C=1, gamma=0.1x scale",1.0,1.0,1.0
+BB5,250,"C=10, gamma=0.1x scale",1.0,1.0,1.0
+BB6,100,"C=10, gamma=1x scale",0.9721485411140585,0.9833333333333334,0.96

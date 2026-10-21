@@ -1,0 +1,25 @@
+test_donor,subset,macro,k,C
+BB1,all_samples,Forebrain,100.0,"C=10, gamma=0.1x scale"
+BB1,all_samples,Basal Ganglia,10.0,"C=1, gamma=0.1x scale"
+BB1,all_samples,Midbrain/Diencephalon,10.0,"C=1, gamma=1x scale"
+BB1,all_samples,Hindbrain,,
+BB2,all_samples,Forebrain,50.0,"C=10, gamma=0.1x scale"
+BB2,all_samples,Basal Ganglia,10.0,"C=1, gamma=10x scale"
+BB2,all_samples,Midbrain/Diencephalon,10.0,"C=10, gamma=10x scale"
+BB2,all_samples,Hindbrain,,
+BB3,all_samples,Forebrain,100.0,"C=1, gamma=0.1x scale"
+BB3,all_samples,Basal Ganglia,10.0,"C=1, gamma=10x scale"
+BB3,all_samples,Midbrain/Diencephalon,10.0,"C=10, gamma=0.1x scale"
+BB3,all_samples,Hindbrain,,
+BB4,all_samples,Forebrain,20.0,"C=100, gamma=0.1x scale"
+BB4,all_samples,Basal Ganglia,10.0,"C=1, gamma=10x scale"
+BB4,all_samples,Midbrain/Diencephalon,10.0,"C=10, gamma=0.1x scale"
+BB4,all_samples,Hindbrain,,
+BB5,all_samples,Forebrain,100.0,"C=10, gamma=0.1x scale"
+BB5,all_samples,Basal Ganglia,10.0,"C=1, gamma=0.1x scale"
+BB5,all_samples,Midbrain/Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB5,all_samples,Hindbrain,,
+BB6,all_samples,Forebrain,10.0,"C=100, gamma=0.1x scale"
+BB6,all_samples,Basal Ganglia,10.0,"C=1, gamma=10x scale"
+BB6,all_samples,Midbrain/Diencephalon,10.0,"C=1, gamma=10x scale"
+BB6,all_samples,Hindbrain,,

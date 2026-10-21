@@ -1,0 +1,49 @@
+test_donor,fraction,macro,k,C
+BB1,Neuronal,Forebrain,500.0,0.1
+BB1,Neuronal,Basal Ganglia,500.0,10.0
+BB1,Neuronal,Midbrain/Diencephalon,500.0,0.1
+BB1,Neuronal,Hindbrain,,
+BB1,Non-neuronal,Forebrain,250.0,1.0
+BB1,Non-neuronal,Basal Ganglia,250.0,0.1
+BB1,Non-neuronal,Midbrain/Diencephalon,500.0,0.1
+BB1,Non-neuronal,Hindbrain,,
+BB2,Neuronal,Forebrain,500.0,1.0
+BB2,Neuronal,Basal Ganglia,250.0,1.0
+BB2,Neuronal,Midbrain/Diencephalon,50.0,10.0
+BB2,Neuronal,Hindbrain,,
+BB2,Non-neuronal,Forebrain,2000.0,0.1
+BB2,Non-neuronal,Basal Ganglia,500.0,0.1
+BB2,Non-neuronal,Midbrain/Diencephalon,250.0,10.0
+BB2,Non-neuronal,Hindbrain,,
+BB3,Neuronal,Forebrain,250.0,10.0
+BB3,Neuronal,Basal Ganglia,50.0,0.1
+BB3,Neuronal,Midbrain/Diencephalon,50.0,1.0
+BB3,Neuronal,Hindbrain,,
+BB3,Non-neuronal,Forebrain,10000.0,0.1
+BB3,Non-neuronal,Basal Ganglia,500.0,1.0
+BB3,Non-neuronal,Midbrain/Diencephalon,50.0,1.0
+BB3,Non-neuronal,Hindbrain,,
+BB4,Neuronal,Forebrain,1000.0,1.0
+BB4,Neuronal,Basal Ganglia,500.0,1.0
+BB4,Neuronal,Midbrain/Diencephalon,1000.0,0.1
+BB4,Neuronal,Hindbrain,,
+BB4,Non-neuronal,Forebrain,500.0,1.0
+BB4,Non-neuronal,Basal Ganglia,500.0,10.0
+BB4,Non-neuronal,Midbrain/Diencephalon,500.0,0.1
+BB4,Non-neuronal,Hindbrain,,
+BB5,Neuronal,Forebrain,500.0,1.0
+BB5,Neuronal,Basal Ganglia,250.0,10.0
+BB5,Neuronal,Midbrain/Diencephalon,500.0,0.1
+BB5,Neuronal,Hindbrain,,
+BB5,Non-neuronal,Forebrain,500.0,0.1
+BB5,Non-neuronal,Basal Ganglia,250.0,10.0
+BB5,Non-neuronal,Midbrain/Diencephalon,500.0,0.1
+BB5,Non-neuronal,Hindbrain,,
+BB6,Neuronal,Forebrain,500.0,1.0
+BB6,Neuronal,Basal Ganglia,1000.0,0.1
+BB6,Neuronal,Midbrain/Diencephalon,2000.0,0.1
+BB6,Neuronal,Hindbrain,,
+BB6,Non-neuronal,Forebrain,50.0,0.1
+BB6,Non-neuronal,Basal Ganglia,50.0,0.1
+BB6,Non-neuronal,Midbrain/Diencephalon,250.0,1.0
+BB6,Non-neuronal,Hindbrain,,

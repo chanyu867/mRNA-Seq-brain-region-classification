@@ -1,0 +1,266 @@
+sample_index,test_donor,fraction,y_true,macro_true,macro_pred,y_pred,oracle_micro_pred
+0,BB3,Non-neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+1,BB5,Non-neuronal,PVC,Forebrain,Forebrain,PSTC,PSTC
+2,BB5,Neuronal,PVC,Forebrain,Forebrain,VLPFC,VLPFC
+3,BB3,Non-neuronal,PAC,Forebrain,Forebrain,INS,INS
+4,BB3,Neuronal,PAC,Forebrain,Forebrain,OFC,OFC
+5,BB4,Non-neuronal,EC,Forebrain,Forebrain,HIPP,HIPP
+6,BB4,Neuronal,EC,Forebrain,Forebrain,PVC,PVC
+7,BB6,Non-neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+8,BB6,Neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,VTA,VTA
+9,BB4,Non-neuronal,PAC,Forebrain,Forebrain,PVC,PVC
+10,BB4,Neuronal,PAC,Forebrain,Forebrain,AMY,AMY
+11,BB6,Non-neuronal,EC,Forebrain,Forebrain,VLPFC,VLPFC
+12,BB6,Neuronal,EC,Forebrain,Forebrain,PVPC,PVPC
+13,BB5,Non-neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+14,BB5,Neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+15,BB4,Non-neuronal,PMC,Forebrain,Forebrain,PMC,PMC
+16,BB4,Neuronal,PMC,Forebrain,Forebrain,PSC,PSC
+17,BB6,Non-neuronal,PAC,Forebrain,Forebrain,VLPFC,VLPFC
+18,BB6,Neuronal,PAC,Forebrain,Forebrain,EC,EC
+19,BB5,Non-neuronal,VLPFC,Forebrain,Forebrain,INS,INS
+20,BB5,Neuronal,VLPFC,Forebrain,Forebrain,VLPFC,VLPFC
+21,BB3,Non-neuronal,PVC,Forebrain,Forebrain,ITC,ITC
+22,BB3,Neuronal,PVC,Forebrain,Forebrain,PSTC,PSTC
+23,BB6,Non-neuronal,PMC,Forebrain,Forebrain,PVPC,PVPC
+24,BB6,Neuronal,PMC,Forebrain,Forebrain,ACC,ACC
+25,BB5,Non-neuronal,VTA,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+26,BB5,Neuronal,VTA,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+27,BB5,Non-neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+28,BB5,Neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+29,BB4,Non-neuronal,PVC,Forebrain,Forebrain,PMC,PMC
+30,BB4,Neuronal,PVC,Forebrain,Forebrain,AMY,AMY
+31,BB6,Non-neuronal,PSC,Forebrain,Forebrain,AMY,AMY
+32,BB6,Neuronal,PSC,Forebrain,Forebrain,PSTC,PSTC
+33,BB3,Non-neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+34,BB3,Neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+35,BB3,Non-neuronal,VLPFC,Forebrain,Forebrain,PVC,PVC
+36,BB3,Neuronal,VLPFC,Forebrain,Forebrain,PSC,PSC
+37,BB5,Neuronal,OFC,Forebrain,Forebrain,VLPFC,VLPFC
+38,BB6,Neuronal,PVC,Forebrain,Forebrain,PSTC,PSTC
+39,BB6,Non-neuronal,PVC,Forebrain,Forebrain,VLPFC,VLPFC
+40,BB4,Non-neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+41,BB4,Neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+42,BB5,Non-neuronal,PVPC,Forebrain,Forebrain,VLPFC,VLPFC
+43,BB5,Neuronal,PVPC,Forebrain,Forebrain,HIPP,HIPP
+44,BB4,Non-neuronal,VLPFC,Forebrain,Forebrain,PMC,PMC
+45,BB4,Neuronal,VLPFC,Forebrain,Forebrain,AMY,AMY
+46,BB6,Non-neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+47,BB6,Neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,VTA,VTA
+48,BB5,Non-neuronal,AMY,Forebrain,Forebrain,PAC,PAC
+49,BB5,Neuronal,AMY,Forebrain,Forebrain,PVPC,PVPC
+50,BB6,Non-neuronal,VLPFC,Forebrain,Forebrain,VLPFC,VLPFC
+51,BB6,Neuronal,VLPFC,Forebrain,Forebrain,PSTC,PSTC
+52,BB3,Non-neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+53,BB3,Neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+54,BB4,Non-neuronal,VTA,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+55,BB4,Neuronal,VTA,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+56,BB3,Non-neuronal,OFC,Forebrain,Forebrain,PSTC,PSTC
+57,BB3,Neuronal,OFC,Forebrain,Forebrain,PSC,PSC
+58,BB3,Non-neuronal,PSC,Forebrain,Forebrain,ACC,ACC
+59,BB3,Neuronal,PSC,Forebrain,Forebrain,PSC,PSC
+60,BB4,Neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+61,BB5,Non-neuronal,NAC,Basal Ganglia,Basal Ganglia,NAC,NAC
+62,BB5,Neuronal,NAC,Basal Ganglia,Basal Ganglia,GP,GP
+63,BB6,Non-neuronal,VTA,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+64,BB6,Neuronal,VTA,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+65,BB6,Non-neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+66,BB6,Neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+67,BB4,Non-neuronal,OFC,Forebrain,Forebrain,PMC,PMC
+68,BB4,Neuronal,OFC,Forebrain,Forebrain,ACC,ACC
+69,BB3,Non-neuronal,CN,Basal Ganglia,Basal Ganglia,GP,GP
+70,BB3,Neuronal,CN,Basal Ganglia,Basal Ganglia,CN,CN
+71,BB6,Non-neuronal,OFC,Forebrain,Forebrain,VLPFC,VLPFC
+72,BB4,Non-neuronal,PVPC,Forebrain,Forebrain,HIPP,HIPP
+73,BB5,Non-neuronal,DRN,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+74,BB5,Neuronal,DRN,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+75,BB3,Non-neuronal,AMY,Forebrain,Forebrain,PMC,PMC
+76,BB3,Neuronal,AMY,Forebrain,Forebrain,PSTC,PSTC
+77,BB6,Neuronal,OFC,Forebrain,Forebrain,EC,EC
+78,BB5,Non-neuronal,CN,Basal Ganglia,Basal Ganglia,NAC,NAC
+79,BB3,Non-neuronal,NAC,Basal Ganglia,Basal Ganglia,GP,GP
+80,BB4,Non-neuronal,AMY,Forebrain,Forebrain,PMC,PMC
+81,BB4,Neuronal,AMY,Forebrain,Forebrain,VLPFC,VLPFC
+82,BB6,Non-neuronal,PVPC,Forebrain,Forebrain,ITC,ITC
+83,BB6,Neuronal,PVPC,Forebrain,Forebrain,EC,EC
+84,BB5,Neuronal,CN,Basal Ganglia,Basal Ganglia,GP,GP
+85,BB3,Neuronal,NAC,Basal Ganglia,Basal Ganglia,GP,GP
+86,BB5,Non-neuronal,DLPFC,Forebrain,Forebrain,VLPFC,VLPFC
+87,BB5,Neuronal,DLPFC,Forebrain,Forebrain,VLPFC,VLPFC
+88,BB6,Non-neuronal,AMY,Forebrain,Forebrain,VLPFC,VLPFC
+89,BB6,Neuronal,AMY,Forebrain,Forebrain,DLPFC,DLPFC
+90,BB3,Neuronal,PSTC,Forebrain,Forebrain,PAC,PAC
+91,BB4,Non-neuronal,PSTC,Forebrain,Forebrain,HIPP,HIPP
+92,BB4,Neuronal,PSTC,Forebrain,Forebrain,PVC,PVC
+93,BB5,Non-neuronal,GP,Basal Ganglia,Midbrain/Diencephalon,ARC,NAC
+94,BB3,Non-neuronal,DRN,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+95,BB3,Neuronal,DRN,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+96,BB4,Non-neuronal,NAC,Basal Ganglia,Basal Ganglia,NAC,NAC
+97,BB4,Neuronal,NAC,Basal Ganglia,Basal Ganglia,NAC,NAC
+98,BB6,Neuronal,NAC,Basal Ganglia,Basal Ganglia,CN,CN
+99,BB6,Non-neuronal,PSTC,Forebrain,Forebrain,VLPFC,VLPFC
+100,BB6,Neuronal,PSTC,Forebrain,Forebrain,ACC,ACC
+101,BB5,Neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+102,BB5,Non-neuronal,PSTC,Forebrain,Forebrain,PMC,PMC
+103,BB5,Neuronal,PSTC,Forebrain,Forebrain,VLPFC,VLPFC
+104,BB5,Non-neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+105,BB4,Non-neuronal,DRN,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+106,BB3,Non-neuronal,DLPFC,Forebrain,Forebrain,PMC,PMC
+107,BB3,Neuronal,DLPFC,Forebrain,Forebrain,AMY,AMY
+108,BB4,Non-neuronal,CN,Basal Ganglia,Basal Ganglia,GP,GP
+109,BB4,Neuronal,CN,Basal Ganglia,Basal Ganglia,NAC,NAC
+110,BB5,Non-neuronal,HIPP,Forebrain,Forebrain,PSC,PSC
+111,BB5,Neuronal,HIPP,Forebrain,Forebrain,EC,EC
+112,BB6,Non-neuronal,DRN,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+113,BB6,Neuronal,DRN,Midbrain/Diencephalon,Midbrain/Diencephalon,VTA,VTA
+114,BB4,Neuronal,DLPFC,Forebrain,Forebrain,PVC,PVC
+115,BB4,Non-neuronal,DLPFC,Forebrain,Forebrain,INS,INS
+116,BB6,Non-neuronal,CN,Basal Ganglia,Basal Ganglia,NAC,NAC
+117,BB6,Neuronal,CN,Basal Ganglia,Basal Ganglia,GP,GP
+118,BB3,Non-neuronal,GP,Basal Ganglia,Basal Ganglia,NAC,NAC
+119,BB3,Neuronal,GP,Basal Ganglia,Basal Ganglia,GP,GP
+120,BB4,Non-neuronal,GP,Basal Ganglia,Basal Ganglia,NAC,NAC
+121,BB4,Neuronal,GP,Basal Ganglia,Basal Ganglia,NAC,NAC
+122,BB3,Non-neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+123,BB3,Neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+124,BB4,Non-neuronal,HIPP,Forebrain,Forebrain,AMY,AMY
+125,BB6,Non-neuronal,GP,Basal Ganglia,Basal Ganglia,NAC,NAC
+126,BB6,Neuronal,GP,Basal Ganglia,Basal Ganglia,CN,CN
+127,BB4,Neuronal,HIPP,Forebrain,Forebrain,OFC,OFC
+128,BB3,Non-neuronal,HIPP,Forebrain,Forebrain,PVC,PVC
+129,BB3,Neuronal,HIPP,Forebrain,Forebrain,DLPFC,DLPFC
+130,BB3,Non-neuronal,ITC,Forebrain,Forebrain,INS,INS
+131,BB4,Non-neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+132,BB4,Neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+133,BB5,Non-neuronal,ACC,Forebrain,Forebrain,AMY,AMY
+134,BB5,Neuronal,ACC,Forebrain,Forebrain,PVPC,PVPC
+135,BB4,Non-neuronal,ITC,Forebrain,Forebrain,PMC,PMC
+136,BB4,Neuronal,ITC,Forebrain,Forebrain,PMC,PMC
+137,BB6,Neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,VTA,VTA
+138,BB6,Non-neuronal,HIPP,Forebrain,Forebrain,VLPFC,VLPFC
+139,BB6,Neuronal,HIPP,Forebrain,Forebrain,INS,INS
+140,BB6,Non-neuronal,ITC,Forebrain,Forebrain,VLPFC,VLPFC
+141,BB6,Neuronal,ITC,Forebrain,Forebrain,PSTC,PSTC
+142,BB5,Non-neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+143,BB5,Neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+144,BB5,Non-neuronal,INS,Forebrain,Forebrain,PVC,PVC
+145,BB5,Neuronal,INS,Forebrain,Forebrain,VLPFC,VLPFC
+146,BB5,Non-neuronal,OFC,Forebrain,Forebrain,INS,INS
+147,BB3,Non-neuronal,ACC,Forebrain,Forebrain,VLPFC,VLPFC
+148,BB3,Neuronal,ACC,Forebrain,Forebrain,AMY,AMY
+149,BB5,Non-neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+150,BB5,Neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+151,BB4,Non-neuronal,ACC,Forebrain,Forebrain,PVPC,PVPC
+152,BB4,Neuronal,ACC,Forebrain,Forebrain,AMY,AMY
+153,BB5,Neuronal,EC,Forebrain,Forebrain,VLPFC,VLPFC
+154,BB4,Non-neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+155,BB4,Neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+156,BB6,Non-neuronal,ACC,Forebrain,Forebrain,ITC,ITC
+157,BB6,Neuronal,ACC,Forebrain,Forebrain,EC,EC
+158,BB5,Neuronal,PAC,Forebrain,Forebrain,PVPC,PVPC
+159,BB5,Non-neuronal,PAC,Forebrain,Forebrain,INS,INS
+160,BB3,Non-neuronal,INS,Forebrain,Forebrain,INS,INS
+161,BB3,Neuronal,INS,Forebrain,Forebrain,OFC,OFC
+162,BB4,Non-neuronal,INS,Forebrain,Forebrain,PVPC,PVPC
+163,BB4,Neuronal,INS,Forebrain,Forebrain,PAC,PAC
+164,BB6,Non-neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+165,BB6,Neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,VTA,VTA
+166,BB5,Non-neuronal,PMC,Forebrain,Forebrain,OFC,OFC
+167,BB5,Neuronal,PMC,Forebrain,Forebrain,PMC,PMC
+168,BB3,Non-neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+169,BB3,Neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,HAB,HAB
+170,BB4,Non-neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+171,BB4,Neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,HAB,HAB
+172,BB1,Non-neuronal,OFC,Forebrain,Forebrain,PVPC,PVPC
+173,BB1,Neuronal,OFC,Forebrain,Forebrain,OFC,OFC
+174,BB1,Non-neuronal,PSTC,Forebrain,Forebrain,PMC,PMC
+175,BB1,Neuronal,PSTC,Forebrain,Forebrain,DLPFC,DLPFC
+176,BB1,Non-neuronal,INS,Forebrain,Forebrain,VLPFC,VLPFC
+177,BB1,Neuronal,INS,Forebrain,Forebrain,DLPFC,DLPFC
+178,BB1,Non-neuronal,HIPP,Forebrain,Forebrain,VLPFC,VLPFC
+179,BB1,Neuronal,HIPP,Forebrain,Forebrain,DLPFC,DLPFC
+180,BB1,Non-neuronal,ACC,Forebrain,Forebrain,PMC,PMC
+181,BB1,Neuronal,ACC,Forebrain,Forebrain,DLPFC,DLPFC
+182,BB1,Non-neuronal,EC,Forebrain,Forebrain,PVPC,PVPC
+183,BB1,Neuronal,EC,Forebrain,Forebrain,EC,EC
+184,BB1,Non-neuronal,PSC,Forebrain,Forebrain,PAC,PAC
+185,BB1,Neuronal,PSC,Forebrain,Forebrain,PSC,PSC
+186,BB1,Neuronal,PVPC,Forebrain,Forebrain,DLPFC,DLPFC
+187,BB1,Non-neuronal,VTA,Midbrain/Diencephalon,Hindbrain,CRBLM,DRN
+188,BB1,Non-neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+189,BB1,Neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+190,BB1,Non-neuronal,AMY,Forebrain,Forebrain,PSC,PSC
+191,BB1,Neuronal,AMY,Forebrain,Forebrain,PSC,PSC
+192,BB1,Neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+193,BB1,Non-neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+194,BB1,Non-neuronal,VLPFC,Forebrain,Forebrain,PVPC,PVPC
+195,BB1,Neuronal,VLPFC,Forebrain,Forebrain,PSC,PSC
+196,BB1,Non-neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,DRN,DRN
+197,BB1,Non-neuronal,DLPFC,Forebrain,Forebrain,VLPFC,VLPFC
+198,BB1,Neuronal,DLPFC,Forebrain,Forebrain,PSC,PSC
+199,BB1,Non-neuronal,PMC,Forebrain,Forebrain,OFC,OFC
+200,BB1,Neuronal,PMC,Forebrain,Forebrain,PSC,PSC
+201,BB1,Non-neuronal,ITC,Forebrain,Forebrain,PAC,PAC
+202,BB1,Neuronal,ITC,Forebrain,Forebrain,DLPFC,DLPFC
+203,BB1,Non-neuronal,PVC,Forebrain,Forebrain,PAC,PAC
+204,BB1,Neuronal,PVC,Forebrain,Forebrain,DLPFC,DLPFC
+205,BB1,Non-neuronal,CN,Basal Ganglia,Basal Ganglia,GP,GP
+206,BB1,Neuronal,CN,Basal Ganglia,Basal Ganglia,GP,GP
+207,BB1,Neuronal,PAC,Forebrain,Forebrain,PSC,PSC
+208,BB2,Non-neuronal,HIPP,Forebrain,Forebrain,DLPFC,DLPFC
+209,BB2,Neuronal,HIPP,Forebrain,Forebrain,PVPC,PVPC
+210,BB2,Non-neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,MDT,MDT
+211,BB2,Neuronal,ARC,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+212,BB2,Non-neuronal,PVPC,Forebrain,Forebrain,INS,INS
+213,BB2,Neuronal,PVPC,Forebrain,Forebrain,AMY,AMY
+214,BB2,Non-neuronal,AMY,Forebrain,Forebrain,DLPFC,DLPFC
+215,BB2,Neuronal,AMY,Forebrain,Forebrain,PVPC,PVPC
+216,BB2,Non-neuronal,VLPFC,Forebrain,Forebrain,ITC,ITC
+217,BB2,Neuronal,VLPFC,Forebrain,Forebrain,PSC,PSC
+218,BB2,Non-neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,VTA,VTA
+219,BB2,Neuronal,HAB,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+220,BB2,Non-neuronal,EC,Forebrain,Forebrain,HIPP,HIPP
+221,BB2,Neuronal,EC,Forebrain,Forebrain,HIPP,HIPP
+222,BB2,Non-neuronal,NAC,Basal Ganglia,Basal Ganglia,NAC,NAC
+223,BB2,Neuronal,NAC,Basal Ganglia,Basal Ganglia,CN,CN
+224,BB2,Non-neuronal,INS,Forebrain,Forebrain,HIPP,HIPP
+225,BB2,Neuronal,INS,Forebrain,Forebrain,PAC,PAC
+226,BB2,Non-neuronal,OFC,Forebrain,Forebrain,HIPP,HIPP
+227,BB2,Neuronal,OFC,Forebrain,Forebrain,PAC,PAC
+228,BB2,Non-neuronal,DLPFC,Forebrain,Forebrain,DLPFC,DLPFC
+229,BB2,Neuronal,DLPFC,Forebrain,Forebrain,PVPC,PVPC
+230,BB2,Non-neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,VTA,VTA
+231,BB2,Neuronal,MDT,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+232,BB2,Non-neuronal,PSTC,Forebrain,Forebrain,PSTC,PSTC
+233,BB2,Neuronal,PSTC,Forebrain,Forebrain,PVPC,PVPC
+234,BB2,Non-neuronal,GP,Basal Ganglia,Basal Ganglia,GP,GP
+235,BB2,Neuronal,GP,Basal Ganglia,Basal Ganglia,GP,GP
+236,BB2,Non-neuronal,PSC,Forebrain,Forebrain,HIPP,HIPP
+237,BB2,Neuronal,PSC,Forebrain,Forebrain,PVPC,PVPC
+238,BB2,Non-neuronal,ITC,Forebrain,Forebrain,AMY,AMY
+239,BB2,Neuronal,ITC,Forebrain,Forebrain,PSC,PSC
+240,BB2,Non-neuronal,PAC,Forebrain,Forebrain,AMY,AMY
+241,BB2,Neuronal,PAC,Forebrain,Forebrain,HIPP,HIPP
+242,BB2,Non-neuronal,PVC,Forebrain,Forebrain,PSTC,PSTC
+243,BB2,Neuronal,PVC,Forebrain,Forebrain,PSTC,PSTC
+244,BB2,Non-neuronal,VTA,Midbrain/Diencephalon,Midbrain/Diencephalon,MDT,MDT
+245,BB2,Neuronal,VTA,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+246,BB2,Non-neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+247,BB2,Neuronal,CRBLM,Hindbrain,Hindbrain,CRBLM,CRBLM
+248,BB2,Non-neuronal,CN,Basal Ganglia,Basal Ganglia,GP,GP
+249,BB2,Neuronal,CN,Basal Ganglia,Basal Ganglia,GP,GP
+250,BB2,Non-neuronal,DRN,Midbrain/Diencephalon,Midbrain/Diencephalon,MDT,MDT
+251,BB2,Neuronal,DRN,Midbrain/Diencephalon,Midbrain/Diencephalon,ARC,ARC
+252,BB2,Non-neuronal,RMTG,Midbrain/Diencephalon,Midbrain/Diencephalon,RMTG,RMTG
+253,BB5,Non-neuronal,PSC,Forebrain,Forebrain,ACC,ACC
+254,BB5,Neuronal,PSC,Forebrain,Forebrain,EC,EC
+255,BB3,Non-neuronal,EC,Forebrain,Forebrain,ITC,ITC
+256,BB3,Neuronal,EC,Forebrain,Forebrain,OFC,OFC
+257,BB6,Non-neuronal,INS,Forebrain,Forebrain,VLPFC,VLPFC
+258,BB6,Neuronal,INS,Forebrain,Forebrain,PSTC,PSTC
+259,BB5,Neuronal,ITC,Forebrain,Forebrain,PVPC,PVPC
+260,BB5,Non-neuronal,ITC,Forebrain,Forebrain,OFC,OFC
+261,BB3,Non-neuronal,PVPC,Forebrain,Forebrain,PMC,PMC
+262,BB3,Neuronal,PVPC,Forebrain,Forebrain,PSC,PSC
+263,BB6,Non-neuronal,DLPFC,Forebrain,Forebrain,VLPFC,VLPFC
+264,BB6,Neuronal,DLPFC,Forebrain,Forebrain,OFC,OFC

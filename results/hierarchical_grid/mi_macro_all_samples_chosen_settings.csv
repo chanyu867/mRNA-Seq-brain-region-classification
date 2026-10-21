@@ -1,0 +1,25 @@
+test_donor,subset,macro,k,C
+BB1,all_samples,Forebrain,10000.0,0.1
+BB1,all_samples,Basal Ganglia,2000.0,0.1
+BB1,all_samples,Midbrain/Diencephalon,100.0,1.0
+BB1,all_samples,Hindbrain,,
+BB2,all_samples,Forebrain,2000.0,1.0
+BB2,all_samples,Basal Ganglia,100.0,0.1
+BB2,all_samples,Midbrain/Diencephalon,50.0,1.0
+BB2,all_samples,Hindbrain,,
+BB3,all_samples,Forebrain,100.0,1.0
+BB3,all_samples,Basal Ganglia,500.0,0.1
+BB3,all_samples,Midbrain/Diencephalon,50.0,1.0
+BB3,all_samples,Hindbrain,,
+BB4,all_samples,Forebrain,10000.0,0.1
+BB4,all_samples,Basal Ganglia,100.0,0.1
+BB4,all_samples,Midbrain/Diencephalon,50.0,0.1
+BB4,all_samples,Hindbrain,,
+BB5,all_samples,Forebrain,2000.0,0.1
+BB5,all_samples,Basal Ganglia,250.0,0.1
+BB5,all_samples,Midbrain/Diencephalon,100.0,1.0
+BB5,all_samples,Hindbrain,,
+BB6,all_samples,Forebrain,10000.0,0.1
+BB6,all_samples,Basal Ganglia,50.0,0.1
+BB6,all_samples,Midbrain/Diencephalon,50.0,0.1
+BB6,all_samples,Hindbrain,,

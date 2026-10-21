@@ -1,0 +1,43 @@
+test_donor,subset,macro,k,C
+BB1,all_samples,Prefrontal_Cortex,10.0,"C=1, gamma=1x scale"
+BB1,all_samples,Sensorimotor_Cortex,10.0,"C=1, gamma=10x scale"
+BB1,all_samples,Parieto_Temporal_Assoc,20.0,"C=10, gamma=1x scale"
+BB1,all_samples,Limbic_Allocortex,10.0,"C=1, gamma=0.1x scale"
+BB1,all_samples,Basal_Ganglia,10.0,"C=1, gamma=0.1x scale"
+BB1,all_samples,Midbrain_Diencephalon,10.0,"C=1, gamma=1x scale"
+BB1,all_samples,Cerebellum_Hindbrain,,
+BB2,all_samples,Prefrontal_Cortex,10.0,"C=1, gamma=0.1x scale"
+BB2,all_samples,Sensorimotor_Cortex,10.0,"C=1, gamma=0.1x scale"
+BB2,all_samples,Parieto_Temporal_Assoc,10.0,"C=1, gamma=10x scale"
+BB2,all_samples,Limbic_Allocortex,10.0,"C=10, gamma=1x scale"
+BB2,all_samples,Basal_Ganglia,10.0,"C=1, gamma=10x scale"
+BB2,all_samples,Midbrain_Diencephalon,10.0,"C=10, gamma=10x scale"
+BB2,all_samples,Cerebellum_Hindbrain,,
+BB3,all_samples,Prefrontal_Cortex,10.0,"C=1, gamma=10x scale"
+BB3,all_samples,Sensorimotor_Cortex,10.0,"C=1, gamma=0.1x scale"
+BB3,all_samples,Parieto_Temporal_Assoc,10.0,"C=1, gamma=10x scale"
+BB3,all_samples,Limbic_Allocortex,10.0,"C=10, gamma=10x scale"
+BB3,all_samples,Basal_Ganglia,10.0,"C=1, gamma=10x scale"
+BB3,all_samples,Midbrain_Diencephalon,10.0,"C=10, gamma=0.1x scale"
+BB3,all_samples,Cerebellum_Hindbrain,,
+BB4,all_samples,Prefrontal_Cortex,10.0,"C=10, gamma=10x scale"
+BB4,all_samples,Sensorimotor_Cortex,10.0,"C=1, gamma=0.1x scale"
+BB4,all_samples,Parieto_Temporal_Assoc,20.0,"C=1, gamma=10x scale"
+BB4,all_samples,Limbic_Allocortex,10.0,"C=1, gamma=10x scale"
+BB4,all_samples,Basal_Ganglia,10.0,"C=1, gamma=10x scale"
+BB4,all_samples,Midbrain_Diencephalon,10.0,"C=10, gamma=0.1x scale"
+BB4,all_samples,Cerebellum_Hindbrain,,
+BB5,all_samples,Prefrontal_Cortex,10.0,"C=10, gamma=10x scale"
+BB5,all_samples,Sensorimotor_Cortex,10.0,"C=1, gamma=0.1x scale"
+BB5,all_samples,Parieto_Temporal_Assoc,10.0,"C=1, gamma=10x scale"
+BB5,all_samples,Limbic_Allocortex,10.0,"C=1, gamma=0.1x scale"
+BB5,all_samples,Basal_Ganglia,10.0,"C=1, gamma=0.1x scale"
+BB5,all_samples,Midbrain_Diencephalon,10.0,"C=1, gamma=0.1x scale"
+BB5,all_samples,Cerebellum_Hindbrain,,
+BB6,all_samples,Prefrontal_Cortex,10.0,"C=1, gamma=0.1x scale"
+BB6,all_samples,Sensorimotor_Cortex,10.0,"C=1, gamma=0.1x scale"
+BB6,all_samples,Parieto_Temporal_Assoc,10.0,"C=100, gamma=0.1x scale"
+BB6,all_samples,Limbic_Allocortex,10.0,"C=10, gamma=1x scale"
+BB6,all_samples,Basal_Ganglia,10.0,"C=1, gamma=10x scale"
+BB6,all_samples,Midbrain_Diencephalon,10.0,"C=1, gamma=10x scale"
+BB6,all_samples,Cerebellum_Hindbrain,,
